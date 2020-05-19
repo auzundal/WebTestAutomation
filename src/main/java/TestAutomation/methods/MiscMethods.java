@@ -1,0 +1,24 @@
+package TestAutomation.methods;
+
+import java.util.Arrays;
+
+public class MiscMethods {
+    public boolean valid_locator_type(String type) {
+        return Arrays.asList("id", "class", "css", "name", "xpath").contains(type);
+    }
+
+    /**
+     * Method to verify locator type
+     *
+     * @param type : String : Locator type (id, name, class, xpath, css)
+     */
+    public void validateLocator(String type) throws TestCaseFailed {
+        if (!valid_locator_type(type))
+            throw new TestCaseFailed("Invalid locator type - " + type);
+    }
+
+    // method to validate dropdown selector
+    public boolean valid_option_by(String option_by) {
+        return Arrays.asList("text", "value", "index").contains(option_by);
+    }
+}

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="7" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="1.813">
+<testcase classname="Acceptance Criteria Implementation" name="Valid login" time="0.274">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I go to main page.....................................................undefined
+When I should see page title as "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more".undefined
+And I wait 5 seconds for element having id "twotabsearchtextbox" to display.undefined
+Then I see id "twotabsearchtextbox" element.................................undefined
+When I click on element having id "nav-link-accountList"....................undefined
+And I wait 5 seconds for element having id "continue" to display............undefined
+Then I see id "continue" element............................................undefined
+Given I click on element having id "ap_email"...............................undefined
+When I enter "ayhanuzundal@gmail.com" into input field having id "ap_email".undefined
+And I click on element having id "continue".................................undefined
+And I wait 5 seconds for element having id "ap_password" to display.........undefined
+Then I see id "ap_password" element.........................................undefined
+When I click on element having id "ap_password".............................undefined
+And I enter "Ayhan7496" into input field having id "ap_password"............undefined
+And I click on element having id "signInSubmit".............................undefined
+And I wait 5 seconds for element having id "twotabsearchtextbox" to display.undefined
+Then I see id "twotabsearchtextbox" element.................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Acceptance Criteria Implementation" name="Invalid login" time="0.026">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I go to main page.....................................................undefined
+When I should see page title as "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more".undefined
+And I wait 5 seconds for element having id "twotabsearchtextbox" to display.undefined
+Then I see id "twotabsearchtextbox" element.................................undefined
+When I click on element having id "nav-link-accountList"....................undefined
+And I wait 5 seconds for element having id "continue" to display............undefined
+Then I see id "continue" element............................................undefined
+Given I click on element having id "ap_email"...............................undefined
+When I enter "654654645648486@gmail.com" into input field having id "ap_email".undefined
+And I click on element having id "continue".................................undefined
+And I wait 5 seconds for element having id "auth-error-message-box" to display.undefined
+Then I see id "auth-error-message-box" element..............................undefined
+]]></failure>
+</testcase>
+<testcase classname="Simple Site Crawl" name="Simple Site Crawl" time="0.593">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I go to main page.....................................................undefined
+When I should see page title as "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more".undefined
+And I wait 5 seconds for element having id "twotabsearchtextbox" to display.undefined
+Then I see id "twotabsearchtextbox" element.................................undefined
+Given I click on element having id "searchDropdownBox"......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[1]".undefined
+Then I see xpath "//*[@id="searchDropdownBox"]/option[1]" element...........undefined
+When I click on element having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+When I create new txt file..................................................undefined
+And I get of page info......................................................undefined
+And I click on element having id "searchDropdownBox"........................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[2]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[3]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[4]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[5]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[6]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[7]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[8]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[9]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[10]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[11]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[12]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[13]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[14]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[15]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[16]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[17]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[18]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[19]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[20]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[21]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[22]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[23]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[24]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[25]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[26]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[27]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+Given I get of page info....................................................undefined
+When I click on element having id "searchDropdownBox".......................undefined
+Then I see id "searchDropdownBox" element...................................undefined
+When I click on element having xpath "//*[@id="searchDropdownBox"]/option[28]".undefined
+And I clear input field having id "twotabsearchtextbox".....................undefined
+And I enter "apple" into input field having id "twotabsearchtextbox"........undefined
+And I click on element having xpath "//*[@class='nav-search-submit nav-sprite']//*[@value='Go']".undefined
+Then I see id "a-autoid-0" element..........................................undefined
+When I get of page info.....................................................undefined
+Then I send email...........................................................undefined
+]]></failure>
+</testcase>
+<testcase classname="API Test" name="Counting posts for user 5" time="0.023">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When I get a list of blog posts using the API endpoint......................undefined
+Then user 5 should have 10 posts............................................undefined
+]]></failure>
+</testcase>
+<testcase classname="API Test" name="Counting posts for user 7" time="0.007">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When I get a list of blog posts using the API endpoint......................undefined
+Then user 7 should have 10 posts............................................undefined
+]]></failure>
+</testcase>
+<testcase classname="API Test" name="Counting posts for user 9" time="0.006">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When I get a list of blog posts using the API endpoint......................undefined
+Then user 9 should have 10 posts............................................undefined
+]]></failure>
+</testcase>
+<testcase classname="API Test" name="Unique ID per post" time="0.004">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When I get a list of blog posts using the API endpoint......................undefined
+Then each blog post should have a unique ID.................................undefined
+]]></failure>
+</testcase>
+</testsuite>

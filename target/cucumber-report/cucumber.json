@@ -1,0 +1,2594 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I go to main page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I should see page title as \"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I wait 5 seconds for element having id \"twotabsearchtextbox\" to display",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I see id \"twotabsearchtextbox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I click on element having id \"nav-link-accountList\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I wait 5 seconds for element having id \"continue\" to display",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I see id \"continue\" element",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-19T12:02:51.569Z",
+        "line": 14,
+        "name": "Valid login",
+        "description": "",
+        "id": "acceptance-criteria-implementation;valid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I click on element having id \"ap_email\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I enter \"ayhanuzundal@gmail.com\" into input field having id \"ap_email\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "I click on element having id \"continue\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "I wait 5 seconds for element having id \"ap_password\" to display",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I see id \"ap_password\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "I click on element having id \"ap_password\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "I enter \"Ayhan7496\" into input field having id \"ap_password\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "I click on element having id \"signInSubmit\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "I wait 5 seconds for element having id \"twotabsearchtextbox\" to display",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "I see id \"twotabsearchtextbox\" element",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I go to main page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I should see page title as \"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I wait 5 seconds for element having id \"twotabsearchtextbox\" to display",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I see id \"twotabsearchtextbox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I click on element having id \"nav-link-accountList\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I wait 5 seconds for element having id \"continue\" to display",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I see id \"continue\" element",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-19T12:02:51.940Z",
+        "line": 28,
+        "name": "Invalid login",
+        "description": "",
+        "id": "acceptance-criteria-implementation;invalid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "I click on element having id \"ap_email\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "I enter \"654654645648486@gmail.com\" into input field having id \"ap_email\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "I click on element having id \"continue\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "I wait 5 seconds for element having id \"auth-error-message-box\" to display",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "I see id \"auth-error-message-box\" element",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Acceptance Criteria Implementation",
+    "description": "",
+    "id": "acceptance-criteria-implementation",
+    "keyword": "Feature",
+    "uri": "classpath:features/1)%20Acceptance.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I go to main page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I should see page title as \"Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs \u0026 more\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I wait 5 seconds for element having id \"twotabsearchtextbox\" to display",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I see id \"twotabsearchtextbox\" element",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-19T12:02:52.260Z",
+        "line": 11,
+        "name": "Simple Site Crawl",
+        "description": "",
+        "id": "simple-site-crawl;simple-site-crawl",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[1]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I see xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[1]\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "I click on element having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "I create new txt file",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[2]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 37,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 39,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[3]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 43,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 49,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[4]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 51,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 52,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 53,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 55,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 56,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 57,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 59,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[5]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 60,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 61,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 62,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 63,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 65,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 66,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 67,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 69,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[6]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 70,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 71,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 72,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 73,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 75,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 76,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 77,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 79,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[7]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 80,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 81,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 82,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 83,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 85,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 86,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 87,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 89,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[8]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 90,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 91,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 92,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 93,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 95,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 96,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 97,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 99,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[9]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 100,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 101,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 102,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 103,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 105,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 106,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 107,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 109,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[10]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 110,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 111,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 112,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 113,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 115,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 116,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 117,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 119,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[11]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 120,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 121,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 122,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 123,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 125,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 126,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 127,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 129,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[12]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 130,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 131,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 132,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 133,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 135,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 136,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 137,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 139,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[13]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 140,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 141,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 142,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 143,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 145,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 146,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 147,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 149,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[14]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 150,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 151,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 152,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 153,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 155,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 156,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 157,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 159,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[15]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 160,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 161,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 162,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 163,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 165,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 166,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 167,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 169,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[16]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 170,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 171,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 172,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 173,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 175,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 176,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 177,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 179,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[17]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 180,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 181,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 182,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 183,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 185,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 186,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 187,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 189,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[18]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 190,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 191,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 192,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 193,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 195,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 196,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 197,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 199,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[19]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 200,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 201,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 202,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 203,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 205,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 206,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 207,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 209,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[20]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 210,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 211,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 212,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 213,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 215,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 216,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 217,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 219,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[21]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 220,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 221,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 222,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 223,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 225,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 226,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 227,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 229,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[22]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 230,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 231,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 232,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 233,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 235,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 236,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 237,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 239,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[23]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 240,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 241,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 242,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 243,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 245,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 246,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 247,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 249,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[24]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 250,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 251,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 252,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 253,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 255,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 256,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 257,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 259,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[25]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 260,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 261,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 262,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 263,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 265,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 266,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 267,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 269,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[26]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 270,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 271,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 272,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 273,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 275,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 276,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 277,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 279,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[27]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 280,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 281,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 282,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 283,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 285,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 286,
+            "name": "I click on element having id \"searchDropdownBox\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 287,
+            "name": "I see id \"searchDropdownBox\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 289,
+            "name": "I click on element having xpath \"//*[@id\u003d\"searchDropdownBox\"]/option[28]\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 290,
+            "name": "I clear input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 291,
+            "name": "I enter \"apple\" into input field having id \"twotabsearchtextbox\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 292,
+            "name": "I click on element having xpath \"//*[@class\u003d\u0027nav-search-submit nav-sprite\u0027]//*[@value\u003d\u0027Go\u0027]\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 293,
+            "name": "I see id \"a-autoid-0\" element",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 295,
+            "name": "I get of page info",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 296,
+            "name": "I send email",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ayhan2"
+          }
+        ]
+      }
+    ],
+    "name": "Simple Site Crawl",
+    "description": "",
+    "id": "simple-site-crawl",
+    "keyword": "Feature",
+    "uri": "classpath:features/2)%20SiteCrawl.feature",
+    "tags": [
+      {
+        "name": "@ayhan2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-19T12:02:52.862Z",
+        "line": 4,
+        "name": "Counting posts for user 5",
+        "description": "",
+        "id": "api-test;counting-posts-for-user-5",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I get a list of blog posts using the API endpoint",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user 5 should have 10 posts",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ayhan3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-19T12:02:52.894Z",
+        "line": 9,
+        "name": "Counting posts for user 7",
+        "description": "",
+        "id": "api-test;counting-posts-for-user-7",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I get a list of blog posts using the API endpoint",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "user 7 should have 10 posts",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ayhan3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-19T12:02:52.907Z",
+        "line": 14,
+        "name": "Counting posts for user 9",
+        "description": "",
+        "id": "api-test;counting-posts-for-user-9",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I get a list of blog posts using the API endpoint",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user 9 should have 10 posts",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ayhan3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-19T12:02:52.920Z",
+        "line": 19,
+        "name": "Unique ID per post",
+        "description": "",
+        "id": "api-test;unique-id-per-post",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "I get a list of blog posts using the API endpoint",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "each blog post should have a unique ID",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ayhan3"
+          }
+        ]
+      }
+    ],
+    "name": "API Test",
+    "description": "",
+    "id": "api-test",
+    "keyword": "Feature",
+    "uri": "classpath:features/3)%20ApiTest.feature",
+    "tags": [
+      {
+        "name": "@ayhan3",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
